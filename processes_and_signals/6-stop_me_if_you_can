@@ -1,5 +1,5 @@
-#!/usr/bin/env bash
-# This script stops 4-to_infinity_and_beyond without using kill command
+#!/usr/bin/env 
+: 'This script stops 4-to_infinity_and_beyond without using kill or killall'
 
 # shellcheck disable=SC2009
 pid=$(ps -ef | grep "[4]-to_infinity_and_beyond" | awk '{print $2}')
